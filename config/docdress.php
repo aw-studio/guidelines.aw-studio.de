@@ -53,14 +53,14 @@ return [
      */
 
     'repos' => [
-        'my/repo' => [
-            'route_prefix'    => 'docs',
+        'aw-studio/guidelines' => [
+            'route_prefix'    => '',
             'subfolder'       => null,
             'default_page'    => 'introduction',
-            'default_version' => 'master',
+            'default_version' => 'main',
             'algolia_app_key' => env('ALGOLIA_APP_KEY', null),
             'versions'        => [
-                'master' => 'Master',
+                'main' => 'Main',
             ],
         ],
     ],
